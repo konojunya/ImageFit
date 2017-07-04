@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let image = UIImage(named: "hasikan") {
+        if let image = UIImage(named: "pineapple") {
             self.imageView.image = UIImage.image_fit(image: image, imageView: self.imageView)
         }
         
