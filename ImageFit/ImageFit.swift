@@ -12,6 +12,8 @@ extension UIImage {
     
     static func image_fit(image: UIImage, imageView: UIImageView) -> UIImage {
         
+        imageView.backgroundColor = .white
+        
         let w = image.size.width
         let h = image.size.height
         
