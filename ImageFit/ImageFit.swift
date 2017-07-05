@@ -10,7 +10,7 @@ import UIKit
 
 public class ImageFit {
     
-    public static func imageFit(image: UIImage, width: CGFloat, height: CGFloat) -> UIImage {
+    public static func drawInImage(image: UIImage, width: CGFloat, height: CGFloat) -> UIImage {
         
         let w = image.size.width
         let h = image.size.height
@@ -44,7 +44,7 @@ public class ImageFit {
         
     }
     
-    public static func imageFit(image: UIImage, imageView: UIImageView) -> UIImage {
+    public static func drawInImage(image: UIImage, imageView: UIImageView) -> UIImage {
         
         imageView.backgroundColor = .white
         

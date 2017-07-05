@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         if let image = UIImage(named: "pineapple") {
-            self.imageView.image = UIImage.image_fit(image: image, imageView: self.imageView)
+            self.imageView.image = ImageFit.drawInImage(image: image, imageView: self.imageView)
         }
         
     }
