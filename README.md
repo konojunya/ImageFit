@@ -64,7 +64,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'ImageFit', '~> 1.1.0'
+	pod 'ImageFit', '~> 1.0.0'
 end
 ```
 
@@ -88,7 +88,7 @@ $ brew install carthage
 To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```
-github "konojunya/ImageFit" ~> 1.1.0
+github "konojunya/ImageFit" ~> 1.0.0
 ```
 
 Run `carthage update` to build the framework and drag the built Alamofire.framework into your Xcode project.
