@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/konojunya/ImageFit/master/assets/imageFit-logo.png)
 
-[![CocoaPods](https://img.shields.io/cocoapods/v/ImageFit.svg?style=flat)]()
+[![CocoaPods](https://img.shields.io/cocoapods/v/ImageFit.svg?style=flat)](https://github.com/konojunya/ImageFit)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![platform](https://img.shields.io/badge/platform-ios-lightgray.svg)]()
 [![swift version](https://img.shields.io/badge/in-swift%203.0-orange.svg)]()
