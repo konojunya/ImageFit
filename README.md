@@ -11,7 +11,7 @@ ImageFit is a library that optimize UIImage according to vertical and horizontal
 
 ## Description
 
-Extend UIImage and resize it while keeping the aspect raito of the image according to the larger width and height.
+Draw UIImage in the center while keeping aspect ratio of aspect ratio.
 
 ## DEMO
 
@@ -64,7 +64,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-	pod 'ImageFit', '~> 0.0.4'
+	pod 'ImageFit', '~> 1.1.0'
 end
 ```
 
@@ -88,7 +88,7 @@ $ brew install carthage
 To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```
-github "konojunya/ImageFit" ~> 0.0.4
+github "konojunya/ImageFit" ~> 1.1.0
 ```
 
 Run `carthage update` to build the framework and drag the built Alamofire.framework into your Xcode project.
@@ -100,5 +100,3 @@ ImageFit is released under the MIT license. [See LICENCE](https://github.com/kon
 ## Author
 
 I'm a student at HAL Osaka.
-
-[@konojunya](https://twitter.com/konojunya)
