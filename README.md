@@ -8,9 +8,35 @@ Extend UIImage and resize it while keeping the aspect raito of the image accordi
 
 ## DEMO
 
-![](https://raw.githubusercontent.com/konojunya/ImageFit/master/screenshots/screenshot.png)
+![](https://raw.githubusercontent.com/konojunya/ImageFit/master/screenshots/demo.png)
 
 ## Usage
+
+```swift
+import ImageFit
+
+UIImage.image_fit(image: <UIImage>, imageView: <UIImageView>)
+```
+
+**sample code**
+
+```swift
+import ImageFit
+
+class ViewController: UIViewController {
+	
+	@IBOutlet weak var imageView:UIImageView!
+	
+	override func viewDidLoad(){
+		super.viewDidLoad()
+		
+		let image = UIImage(named: "sample")
+		self.imageView.image = UIImage.image_fit(image: image,imageView: self.imageView)
+		
+	}
+	
+}
+```
 
 ## Installation
 
