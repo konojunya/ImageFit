@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ImageFit"
-  s.version      = "0.0.5"
-  s.summary      = "ImageFit is Swift library"
+  s.version      = "1.1.0"
+  s.summary      = "ImageFit is a library that optimize UIImage according to vertical and horizontal size."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  "ImageFit is swift library"
+  "ImageFit is a library that optimize UIImage according to vertical and horizontal size."
                    DESC
 
   s.homepage     = "https://github.com/konojunya/ImageFit"
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "10.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
