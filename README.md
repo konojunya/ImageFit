@@ -15,7 +15,8 @@ Extend UIImage and resize it while keeping the aspect raito of the image accordi
 ```swift
 import ImageFit
 
-UIImage.image_fit(image: <UIImage>, imageView: <UIImageView>)
+ImageFit.drawInImage(image: <UIImage>, imageView: <UIImageView>)
+ImageFit.drawInImage(image: <UIImage>, width: <CGFloat>, height: <CGFloat>)
 ```
 
 **sample code**
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		
 		let image = UIImage(named: "sample")
-		self.imageView.image = UIImage.image_fit(image: image,imageView: self.imageView)
+		self.imageView.image = ImageFit.drawInImage(image: image,imageView: self.imageView)
 		
 	}
 	
