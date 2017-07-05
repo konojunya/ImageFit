@@ -51,7 +51,7 @@ public class ImageFit {
         let width = imageView.frame.width
         let height = imageView.frame.height
         
-        let image = self.imageFit(image: image, width: width, height: height)
+        let image = self.drawInImage(image: image, width: width, height: height)
         
         return image
         
