@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ImageFit"
-  s.version      = "1.1.1"
+  s.version      = "1.0.0"
   s.summary      = "ImageFit is a library that optimize UIImage according to vertical and horizontal size."
 
   # This description is used to generate tags and improve search results.
