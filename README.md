@@ -1,4 +1,4 @@
-# ImageFit
+![](https://raw.githubusercontent.com/konojunya/ImageFit/master/assets/imageFit-logo.png)
 
 ImageFit is a library that optimize UIImage according to vertical and horizontal size.
 
