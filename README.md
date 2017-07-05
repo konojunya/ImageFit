@@ -1,5 +1,12 @@
 ![](https://raw.githubusercontent.com/konojunya/ImageFit/master/assets/imageFit-logo.png)
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/AFNetworking.svg)]()
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![platform](https://img.shields.io/badge/platform-ios-lightgray.svg)]()
+[![swift version](https://img.shields.io/badge/in-swift%203.0-orange.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/l/AFNetworking.svg)]()
+[![Twitter](https://img.shields.io/badge/twitter-@konojunya-blue.svg)]()
+
 ImageFit is a library that optimize UIImage according to vertical and horizontal size.
 
 ## Description
