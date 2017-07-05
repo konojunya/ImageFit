@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImage {
+public class ImageFit {
     
     public static func imageFit(image: UIImage, width: CGFloat, height: CGFloat) -> UIImage {
         
