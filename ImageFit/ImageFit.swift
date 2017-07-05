@@ -10,15 +10,10 @@ import UIKit
 
 extension UIImage {
     
-    static func image_fit(image: UIImage, imageView: UIImageView) -> UIImage {
-        
-        imageView.backgroundColor = .white
+    public static func imageFit(image: UIImage, width: CGFloat, height: CGFloat) -> UIImage {
         
         let w = image.size.width
         let h = image.size.height
-        
-        let width = imageView.frame.width
-        let height = imageView.frame.height
         
         var newWidth:CGFloat!
         var newHeight:CGFloat!
@@ -46,6 +41,20 @@ extension UIImage {
         UIGraphicsEndImageContext()
         
         return newImage!
+        
+    }
+    
+    public static func imageFit(image: UIImage, imageView: UIImageView) -> UIImage {
+        
+        imageView.backgroundColor = .white
+        
+        let width = imageView.frame.width
+        let height = imageView.frame.height
+        
+        let image = self.imageFit(image: image, width: width, height: height)
+        
+        return image
+        
     }
     
 }
