@@ -56,7 +56,7 @@ class ViewController: UIViewController {
 $ gem install cocoapods
 ```
 
-To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate ImageFit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```
 source 'https:/github.com/CocoaPods/Spec.git'
